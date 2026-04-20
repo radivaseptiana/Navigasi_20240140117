@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* Wallpaper */
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    /* Tengah + vertikal */
+    display: flex;
+    flex-direction: column; /* INI YANG PENTING */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+}
+
+/* Biar teks kebaca */
+h1, p {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+/* Link jadi tombol */
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(0,0,0,0.8);
+}

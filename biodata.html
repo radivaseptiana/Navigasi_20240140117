@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Peminatan</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <div class="container">
+    <h3>Pendaftaran Peminatan</h3>
+
+    <form>
+      <label>Nama</label>
+      <input type="text" id="nama" placeholder="Nama anda">
+
+      <label>NIM</label>
+      <input type="text" id="nim" placeholder="NIM anda">
+
+      <label>Angkatan</label>
+      <select id="angkatan">
+        <option value="">-- Pilih Angkatan --</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+      </select>
+
+      <p>Peminatan pada bidang:</p>
+
+      <label>
+        <input type="radio" name="minat" value="Programming"> Programming
+      </label><br>
+
+      <label>
+        <input type="radio" name="minat" value="Desain"> Desain
+      </label><br>
+
+      <label>
+        <input type="radio" name="minat" value="Jaringan"> Jaringan
+      </label><br>
+
+      <label>
+        <input type="radio" name="minat" value="Data"> Data
+      </label><br>
+
+      <label>Tanggal</label>
+      <input type="date" id="tanggal">
+
+      <label>Alamat</label>
+      <textarea id="alamat" placeholder="Tulis alamatmu di sini"></textarea>
+
+      <button type="button" onclick="kirimData()">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

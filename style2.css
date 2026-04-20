@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #A3B18A; 
+  padding: 0;
+}
+
+.container {
+  width: 320px;
+  margin: 50px auto;
+  background-color: #F6FFF8;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccd5ae;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+textarea {
+  height: 80px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+label input[type="radio"] {
+  margin-right: 6px;
+  width: auto;
+}
+
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #588157;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3A5A40;
+}
